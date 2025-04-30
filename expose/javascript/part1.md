@@ -7,6 +7,7 @@
 4. values added: 20
 5. Returns an error, because console.log() won't see result, as it is declared
    with a let keyword, so it is only visible within the if block.
-6. values added: 0
+6. Returns an error because const variables can't be reassigned.
 7. Returns an error, because console.log() won't see result, as it is declared
-   with a const keyword, so it is only visible within the if block.
+   with a const keyword, so it is only visible within the if block. Also, it 
+   will return an error from question 6.
